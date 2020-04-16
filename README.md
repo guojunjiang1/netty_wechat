@@ -1,0 +1,2 @@
+# netty_wechat
+基于neety和springboot技术，模仿wechat的一个小软件
