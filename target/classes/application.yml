@@ -1,0 +1,13 @@
+server:
+  port: 9000
+  context-path: /
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/hchat?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: qwe123..
+#mybatis
+mybatis:
+  type-aliases-package: com.itheima.hchat.pojo
+  mapper-locations: classpath:mapper/*:xml
+
